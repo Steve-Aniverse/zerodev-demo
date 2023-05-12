@@ -1,6 +1,6 @@
 import { createStyles, Title, Text, Container, Flex } from '@mantine/core';
-import { ConnectButton } from '@rainbow-me/rainbowkit';
 import { ReactComponent as ZeroDevLogo } from './resources/assets/images/logo.svg';
+import { JWTLoginButton } from './JWTLoginButton';
 
 const useStyles = createStyles((theme) => ({
   wrapper: {
@@ -44,7 +44,7 @@ export function Login() {
             Account Abstraction
           </Text>
         </Title>
-        <ConnectButton label={"Start Demo"} />
+        <JWTLoginButton />
         ZeroDev will create an AA wallet for you using social accounts.
       </Flex>
     </Container>
